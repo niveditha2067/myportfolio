@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap');
+body {
+  font-family: 'Lexend', sans-serif;
+  font-size:16px;
+  line-height:24px; 
+  background-color:#fff;
+}
+
+
+header {
+    background-color: #a11616;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.project-details {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-details img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.project-details p {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #fff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+.back-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    background-color: #3e8e41;
+}
+
+.header-area {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:#fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* z-index: 1000; */
+    margin-bottom:1px;
+}
